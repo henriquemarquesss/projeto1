@@ -1,0 +1,59 @@
+body{
+    background-color: skyblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: skyblue;
+    
+}
+
+.box{
+    margin: 10px;
+    width: 350px;
+    background-color: white;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#logo_bar{
+    font-size: 40px;
+}
+#logo_bar span{
+    color: cyan;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h2{
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+#footer{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.box p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
